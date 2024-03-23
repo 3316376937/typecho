@@ -36,12 +36,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => '请填入数据库地址',
-  'user' => '数据库用户名',
-  'password' => '数据库密码',
+  'host' => 'viaduct.proxy.rlwy.net',
+  'user' => 'root',
+  'password' => 'JoBNrlptPPZGWeXQIZCBJUaCdiYxRRuU',
   'charset' => 'utf8',
-  'port' => '3306',
-  'database' => '数据库名称',
+  'port' => '32456',
+  'database' => 'railway',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
