@@ -1,0 +1,47 @@
+.fw-notice-alert {
+    padding: 10px 30px 10px 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+
+.fw-notice-alert::before {
+    content: "\f028";
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 10px;
+}
+
+.fw-notice-alert #close-notice {
+    right: 10px;
+    top: 10px;
+}
+
+.fw-notice-alert #close-notice:hover {
+    cursor: pointer;
+}
+
+.fw-notice-alert .time-notice {
+    text-align: right;
+    margin: 5px 0 0;
+}
+
+.fw-notice-alert.fw-notice-alert-normal {
+    background-color: #E4EDFD;
+    color: #1B72F3;
+}
+
+
+.fw-notice-alert.fw-notice-alert-success {
+    background-color: #EAFBE8;
+    color: #2BDE3E;
+}
+
+.fw-notice-alert.fw-notice-alert-warning {
+    background-color: #FFF7E5;
+    color: #FEC008;
+}
+
+.fw-notice-alert.fw-notice-alert-danger {
+    background-color: #FFEDEC;
+    color: #F46C6B;
+}
