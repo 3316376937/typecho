@@ -41,7 +41,7 @@ $db->addServer(array (
   'password' => 'Z2Krox3CNW4u5h0Q81fmciAXn769vVPS',
   'charset' => 'utf8mb4',
   'port' => '31238',
-  'database' => 'railway',
+  'database' => 'zeabur',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
