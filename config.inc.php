@@ -38,9 +38,9 @@ $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
   'host' => 'hkg1.clusters.zeabur.com',
   'user' => 'root',
-  'password' => 'Z2Krox3CNW4u5h0Q81fmciAXn769vVPS',
+  'password' => '6oMtY5Z10vUncGHj7E2BQTb94L8aPOg3',
   'charset' => 'utf8mb4',
-  'port' => '31238',
+  'port' => '31577',
   'database' => 'zeabur',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
